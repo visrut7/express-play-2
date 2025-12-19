@@ -1,0 +1,6 @@
+pnpm init
+pnpm install express typescript @types/express @types/node ts-node-dev
+pnpm install -D typescript @types/express @types/node
+pnpm tsc --init
+mkdir src
+touch src/app.ts
